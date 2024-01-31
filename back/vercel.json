@@ -8,7 +8,7 @@
     ],
     "routes": [
         {
-            "src": "../front/html/index.html",
+            "src": "/(.*)",
             "dest":"/"
         }
     ]
