@@ -4,12 +4,16 @@
         {
             "src" : "./index.js",
             "use":"@vercel/node"
-        }
+        },
+        {
+            "src": "front/**",
+            "use": "@vercel/static"
+          }
     ],
     "routes": [
         {
             "src": "/(.*)",
-            "dest":"./app.js"
+            "dest":"../front/html/index.html"
         }
     ]
 }
