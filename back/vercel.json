@@ -9,7 +9,14 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest":"../front/html/confirmation.html"
+            "dest":"/"
         }
-    ]
+    ],
+        "rewrites": [
+          {
+            "source": "/*",
+            "destination": "https://https://site-kanap-back-dftpuuj3q-fkz.vercel.app/front/html/index.html"
+          }
+        ]
+      
 }
