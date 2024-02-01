@@ -15,7 +15,7 @@
         "rewrites": [
           {
             "source": "/*",
-            "destination": "https://https://site-kanap-front.vercel.app"
+            "destination": "../public/index.html"
           }
         ]
       
