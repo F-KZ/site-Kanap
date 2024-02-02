@@ -344,7 +344,7 @@ function postForm() {
         };
 
 
-        let url = 'http://localhost:3002/api/products/order';
+        let url = 'https://site-kanap-back.vercel.app/api/products/order';
 
         fetch(url, options).then((response) => {
 
