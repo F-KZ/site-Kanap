@@ -10,7 +10,7 @@ getArticle();
 
 // Récupération des articles de l'API
 function getArticle() {
-    fetch("https://site-kanap-back.vercel.app/api/products/" + idProduct)
+    fetch("https://site-kanap-back.vercel.app/api/products" + idProduct)
         .then((res) => {
             return res.json();
         })
