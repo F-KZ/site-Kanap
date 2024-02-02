@@ -118,7 +118,7 @@ function ProductsCart() {
     } else {
         let prixProduits = [];
         for (let produit in produitLocalStorage) {
-            fetch("http://localhost:3002/api/products/" + produitLocalStorage[produit].idProduit)
+            fetch("https://site-kanap-back.vercel.app/api/products/" + produitLocalStorage[produit].idProduit)
                 .then((res) => {
                     return res.json();
                 }).then(async function (resultatAPI) {
