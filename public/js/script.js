@@ -23,7 +23,7 @@ async function fillSection() {
                     let name = search_params.get('name');
 
                 }
-                productLink.href = `product.html?id=${articles[article]._id}`;
+                productLink.href = `html/product.html?id=${articles[article]._id}`;
 
                 /* Insertion de "article" */
                 let productArticle = document.createElement("article");
