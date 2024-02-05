@@ -2,7 +2,7 @@ fillSection();
 
 /* je recupere les articles de l'API */
 async function getArticles() {
-    let articlesCatch = await fetch("https://site-kanap-back.vercel.app/api/products")
+    let articlesCatch = await fetch("https://site-kanap-back-lqsl7cex9-fkz.vercel.app/api/products")
     return await articlesCatch.json();
 }
 
